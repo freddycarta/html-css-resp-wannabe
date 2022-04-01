@@ -73,16 +73,20 @@ img {
 } 
 
 @media screen and (max-width: 420px) {
-  #lezioni .row{
+  #lezioni .row>.left,
+  #lezioni .row>.right {
     float: none;
+    width: 50%;
     
   }
   
 }
 
 @media screen and (max-width: 420px) {
-  #steps .row {
+  #lezioni .row>.left,
+  #lezioni .row>.right { 
     float: none;
+    width: 50%;
   }
   
 }
